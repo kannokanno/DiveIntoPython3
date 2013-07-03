@@ -20,7 +20,7 @@ class NumberingTestCase(unittest.TestCase):
         k = q0005.numbering(list(range(1000)))
         self.assertEqual(1000, len(k))
         for i in range(1000):
-            self.assertEquals((i, i), k[i])
+            self.assertEqual((i, i), k[i])
 
 
 if __name__ == '__main__':
