@@ -7,16 +7,16 @@ Dive Into Python3 の章立てに沿った問題と問題への回答を検証�
 
 まずvirtualenvをインストールしよう. 配布サイト https://pypi.python.org/pypi/virtualenv を参照.
 
-次にこのgit repositoryをcloneし、その中でvirtualenvを実行します。
+次にこのgit repositoryをcloneし、その中でvirtualenvを実行します.
 具体的にはpython3.3で行う場合は
 
     % virtualenv --clear --no-site-packages --python=python3.3 py3.3 
 
-などとする。
+などとする.
 
     % source py3.3/bin.activate
 
-でenvを有効にする。
+でenvを有効にする.
 
 次にpipを使って依存しているpackageを入れる
 
@@ -24,14 +24,14 @@ Dive Into Python3 の章立てに沿った問題と問題への回答を検証�
 
 これでcheck.pyに必要なものがインストールされる。
 
-## check.pyの使い方。
+## check.pyの使い方
 
     % python check.py exercises/chap2/q0002.py
 
-とすると、標準出力にいろいろメッセージが出る。
+とすると、標準出力にいろいろメッセージが出る.
 
-前半は循環複雑度を測定した結果である。
-5以上は好ましくない。
+前半は循環複雑度を測定した結果である.
+課題の複雑さからすると5以上は好ましくない.
 
 後半はpep8のチェックである(pep8.pyを使用)
 
@@ -40,12 +40,12 @@ Dive Into Python3 の章立てに沿った問題と問題への回答を検証�
 
     % python -m tests.chap2.q0002
 
-とすると、
-exercises/chap2/q0002.py
-がunittestされる。
+とすると、exercises/chap2/q0002.py がunittestされる.
 結果が標準出力にでるので、全てokであること
 
-testの実装が間違っていると思われる場合はissueをたててください
+testの実装が間違っていると思われる場合はissueをたててください.
 
+
+Enjoy!
 
 
