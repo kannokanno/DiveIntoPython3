@@ -1,0 +1,35 @@
+
+内包表記
+http://diveintopython3-ja.rdy.jp/comprehensions.html
+
+
+1) このfile(chap3/q0001.py)をprintするコードを書け。クワインではなく、fileを開くコードである.
+   pathはハードコードしてよい.
+
+2) chap3のdir/folderに含まれる.pyで終わるfile名(q0001.pyなど)を列挙するコードを書け.
+
+3) 2)で作ったfile名を絶対Pathのリストに作る換えよ.
+
+4) 0から99までの整数値をkeyとし、keyを自乗した値をvalueとして持つ辞書を構築せよ.
+
+5) Fizz Buzzのリストxsを内包表記を用いてつくる関数foo(n)を実装せよ. 0 < n
+  xs[1] = 1, xs[2] = 2, xs[3] ='Fizz', ... xs[15] = 'Fizz Buzz' ... xs[n] = ??? などとなる.
+
+6) readme.mdがあるdirから再帰的にそのdirの中身を辞書dに入れる関数をかけ
+   i.e. d['exercises']が返す物は辞書eで、e['chap3']には辞書fがが返ってくる.
+   辞書fは2)で列挙されたfile名をkeyに持つが、そのkeyに対応する値はNoneである
+ 
+7) 関数circular(period)を実装せよ. この関数はperiodを与えたときに辞書を返す
+  その辞書は0 <= n < periodなるnをkeyとして引いたときに「次の値」を返す
+  n = period - 1の時の次の値は0である.
+  circular(0) => {}
+  circular(1) => {0: 0}
+  circular(2) => {0: 1, 1: 0}
+  circular(3) => {0: 1, 1: 2, 2: 0}
+  circular(4) => {0: 1, 1: 2, 2: 3, 3: 0}
+
+8) 7)では整数値だったが、代わりにa-zを用いよ。period < 26を仮定してよい.
+  circular(1) => {'a': 'a'}
+  circular(2) => {'a': 'b', 'b': 'a'}
+
+
