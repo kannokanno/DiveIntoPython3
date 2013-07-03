@@ -7,7 +7,7 @@ http://diveintopython3-ja.rdy.jp/native-datatypes.html
 
 1) 試して考えよ: dictのkeyにlistを用いると何が起こるのか？
 
-2) fizzbuzzを実装する
+2) fizzbuzz(n)を実装する 15に対しては"Fizz Buzz"を返せ。
 
 3) fizzbuzz_t(n)を実装せよ。0からnまでのfizzbuzzの結果をtupleに詰めて返す関数である
 
