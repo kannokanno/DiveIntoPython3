@@ -14,7 +14,7 @@ class TestCase(unittest.TestCase):
         self.assertIsNotNone(q0006.false_only.__doc__)
 
     def test_empty(self):
-        self.assertEq([], q0006.false_only([]))
+        self.assertEqual([], q0006.false_only([]))
 
     def test_xs(self):
         xs = q0006.false_only(data)
