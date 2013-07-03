@@ -14,7 +14,7 @@ Dive Into Python3 の章立てに沿った問題と問題への回答を検証�
 
 などとする.
 
-    % source py3.3/bin.activate
+    % source py3.3/bin/activate
 
 でenvを有効にする.
 
