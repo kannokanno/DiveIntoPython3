@@ -1,0 +1,25 @@
+
+ネイティブデータ型
+
+http://diveintopython3-ja.rdy.jp/native-datatypes.html
+
+
+
+1) 試して考えよ: dictのkeyにlistを用いると何が起こるのか？
+
+2) hours ago fizzbuzzを実装する
+
+3) fizzbuzz_t(n)を実装せよ。0からnまでのfizzbuzzの結果をtupleに詰めて返す関数である
+
+4) pythonを用いて http://projecteuler.net/problem=1 を解け
+
+5) numbering(xs)を実装せよ。リストを与えられたら、リストのitemとその出現indexをペアにしたもののリストを返す関数である。たとえば['a', 'b', 'c']を与えたなら[(0, 'a'), (1, 'b'), (2, 'c')]を返す。
+
+6) false_only(xs)を実装せよ. リストのitemのうち、falseになるものだけをリストにして返すこと。順序は保存すること。
+
+7)  list xsで与えられた単語の発生頻度を数える関数wordcount(xs)をかけ。 xs = ['a', 'b', 'a', 'a', 'c'] だったら {'a': 3, 'b':1, 'c':1}を返す
+
+8) flatten(xs)を実装せよ。入れ子になっているリストを"平ら"にする関数である。たとえば xs = [[1, 2], 3]だったら[1, 2, 3]を返す。
+
+
+
